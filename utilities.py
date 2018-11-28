@@ -85,7 +85,7 @@ def IOU(x_true, y_true, width_true, height_true, x_pred, y_pred, width_pred, hei
 ## Calculate true positiv, true negativ, false positiv, etc. 
     
 
-def calucalteTP_TN_FP_FN(pred_parsed, true_parsed, iou):
+def calucalteTP_TN_FP_FN(pred_parsed, true_parsed, iou_conf):
 
     True_positiv = 0     
     True_negativ = 0
@@ -115,7 +115,7 @@ def calucalteTP_TN_FP_FN(pred_parsed, true_parsed, iou):
                     height_pred = pred_parsed[i][1][4]
                     
                     iou = IOU(x_true, y_true, width_true, height_true, x_pred, y_pred, width_pred, height_pred)
-                    if iou > 0.5 :
+                    if iou > iou_conf :
                         True_positiv += 1
                     else:
                         False_positiv += 1

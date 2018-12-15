@@ -15,4 +15,4 @@ Start train.ipny and set up the paths.
 Run train.ipny
 
 TESTING: 
-Run parse.py 
+Run parse.py to get main results.

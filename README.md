@@ -8,4 +8,5 @@ The data used is downloaded for the challenge RSNA Pneumonia Detection Challenge
 Go under Branch in this github to see the model/models used in this project and the results. 
 
 For Mask-RCNN: Branch -> Change Master to Mask-RCNN
+
 For ChexNet: Branch -> Change Master to ChexNet

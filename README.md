@@ -14,4 +14,4 @@ Start train.ipny and set up the paths.
 Run train.ipny
 
 TESTING: 
-Run parse.ipynb to get main results.
+Run parse2.ipynb to get main results.
